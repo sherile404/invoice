@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .receipt {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .info {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .info p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table th, .table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+        .table th {
+            background-color: #f2f2f2;
+        }
+        .total {
+            margin-top: 20px;
+            text-align: right;
+        }
+        .total p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            /* text-align: center; */
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+        }
+        .foot{
+            display: block;
+            margin-top: 10px;
+            justify-content: center;
+            margin-right: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+
+<div class="receipt">
+    <div class="header">
+        <h1>CHENGA AUTO HARDWARE LTD</h1>
+        <p>Voi, Kariakor - Chenga Building, Next to Fine Breeze</p>
+        <p>
+            <span>Phone: 070579737, </span>
+            <span>chengaspares@yahoo.com</span>
+        </p>
+    </div>
+    <div class="info">
+<div class = "cd-info">
+        <p><strong>Customer Name:</strong> CHENGA AUTO HARDWARE LTD</p>
+        <p><strong>Address:</strong> VOI</p>
+        <p><strong>Contact:</strong> 0726444248, 0705797373</p>
+        <p><strong>Contact Person:</strong> PATRICK CHEGE</p>
+        </div>
+        <div class="">
+        <p><strong>VAT:</strong> 0112265A</p>
+        <p><strong>PIN:</strong> P051186802Z</p>
+        <p><strong>Doc No:</strong> 114708</p>
+        <p><strong>Date:</strong> 13-May-2024</p>
+        <p><strong>Sales Person:</strong> BEATRICE</p>
+    </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>QTY</th>
+                <th>PART NO</th>
+                <th>ITEM NAME</th>
+                <th>UNIT PRICE</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>13568-19195</td>
+                <td>TIMING BELT 1HZ NEW/1HD-T(92R) GENUINE</td>
+                <td>6,000.00</td>
+                <td>12,000.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="total">
+        <p><strong>Gross Amount:</strong> 10,344.83</p>
+        <p><strong>VAT Amount:</strong> 1,655.17</p>
+        <p><strong>Net Amount:</strong> 12,000.00</p>
+    </div>
+    <div class="footer">
+        <p
+        class="foot"
+        >
+        <span>1. Goods once sold are NOT accepted back.</span><br/>
+        <span>2. No Responsibility is accepted for shortage or Damage in transit.</span></p>
+
+        
+        <p>Signature: ___________________________</p>
+        
+    </div>
+</div>
+
+</body>
+</html>
